@@ -2,7 +2,8 @@ ARG PHP_VERSION=8.3
 ARG DISTRO="alpine"
 
 FROM docker.io/tiredofit/nginx-php-fpm:${PHP_VERSION}-${DISTRO}-7.7.13
-LABEL maintainer="Dave Conroy (github.com/tiredofit)"
+LABEL create="Dave Conroy (github.com/tiredofit)"
+LABEL maintainer="Felix Sullon (github.com/ffsaenterprises)"
 
 ARG FREESCOUT_VERSION
 
