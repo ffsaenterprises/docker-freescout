@@ -23,8 +23,7 @@ services:
     - DB_NAME=freescout
     - DB_USER=freescout
     - DB_PASS=freescout
-
-    - SITE_URL=http://freescout.example.com
+    
     - ADMIN_EMAIL=admin@admin.com
     - ADMIN_PASS=freescout
     - ENABLE_SSL_PROXY=FALSE
